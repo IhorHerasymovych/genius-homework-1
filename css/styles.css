@@ -1,0 +1,169 @@
+:root {
+  --primary-text-color: #011c44;
+  --secondary-text-color: #2b7fff;
+  --third-text-color: #000000;
+  --four-text-color: #ffffff;
+  --fifth-text-color: #4a4a4a;
+  --copyright-text-color: #747272;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-decoration: none;
+}
+h2 {
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.logo {
+  font-family: "Play", sans-serif;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--secondary-text-color);
+}
+
+.navigation {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: var(--primary-text-color);
+}
+
+.navigation:hover,
+.navigation:focus {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+}
+
+.descr {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: var(--primary-text-color);
+}
+
+.hero-title {
+  font-family: "Play", sans-serif;
+  font-size: 140px;
+  line-height: 0.8;
+  font-weight: 700;
+  color: var(--secondary-text-color);
+}
+
+.hero-button {
+  background-color: var(--secondary-text-color);
+  color: var(--four-text-color);
+  width: 219px;
+  height: 53px;
+  align-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  border-radius: 32px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--secondary-text-color);
+}
+
+.button:active {
+  background-color: var(--four-text-color);
+  border: 2px;
+  border-color: #2b7fff;
+  color: var(--primary-text-color);
+}
+
+.but-descr {
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--fifth-text-color);
+}
+
+.title-style-first {
+  color: var(--primary-text-color);
+}
+
+.title-style-second {
+  color: var(--secondary-text-color);
+}
+
+.about-us {
+  font-size: 22px;
+  line-height: 1.7;
+  font-weight: 400;
+  color: var(--primary-text-color);
+}
+
+.advantages-text {
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 400;
+  color: var(--third-text-color);
+}
+
+.form-title {
+  font-size: 22px;
+  line-height: 1.1;
+  font-weight: 700;
+  color: var(--four-text-color);
+}
+
+.form-title-accent {
+  color: var(--secondary-text-color);
+}
+
+.form-button {
+  background-color: var(--secondary-text-color);
+  color: var(--four-text-color);
+  width: 281px;
+  height: 53px;
+  align-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  border-radius: 32px;
+  border: none;
+  cursor: pointer;
+}
+
+.form-but-descr {
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--copyright-text-color);
+}
+
+.copyright-link {
+  color: var(--copyright-text-color);
+  text-decoration: underline;
+}
+
+.footer-nav {
+  font-size: 16px;
+  line-height: 1.1;
+  font-weight: 400;
+  color: var(--four-text-color);
+}
+
+.footer-copyright {
+  font-size: 13px;
+  line-height: 1.1;
+  font-weight: 400;
+  color: var(--copyright-text-color);
+}
